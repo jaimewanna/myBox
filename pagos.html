@@ -1,0 +1,107 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Pagos</h1>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12 col-xl">
+                        <p>MYB</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboPagos">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl">
+                        <p>Deuda ($)</p>
+                        <input type="number" id="inputDeudaPagos" class="form-control" placeholder="0.00" disabled=""
+                            value="0" style="text-align: center;">
+
+                    </div>
+                    <div class="col-12 col-xl">
+                        <p>Empresa Pago</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboPagosEmpresa">
+                                <option value="2">Argenper</option>
+                                <option value="7">Banco Basa</option>
+                                <option value="4">Billetera Personal</option>
+                                <option value="8">Corrección</option>
+                                <option value="9">Criptomeneda</option>
+                                <option value="6">Google Pay</option>
+                                <option value="5">Otro</option>
+                                <option value="1">PayPal</option>
+                                <option value="3">Western Union</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl">
+                        <p>Pago ($)</p>
+                        <input type="number" id="inputMontoPago" class="form-control" placeholder="0.00" disabled=""
+                            value="0" style="text-align: center;">
+
+                    </div>
+                    <div class="col-2">
+                        <p>Guardar Pago</p>
+                        <button class="btn btn-primary" id="savepaymentButtom"
+                            style="background-color: #F1C232;width: 100%;margin-bottom: 8px" onclick="savePayment()"><i
+                                class="anticon anticon-save" disable></i> Registrar</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <h3 style="color: white;">
+                    Otras acciones
+                </h3>
+                <div style="display: flex;align-items: center;justify-content: center;gap: 10px;">
+                    <div>
+                        <button class="btn btn-primary" id="createFreePaymentButtom"
+                            style="background-color: #F1C232;margin-bottom: 8px" onclick="openModalPagoHistorico()" disabled>
+                            <i class="anticon anticon-save"></i>
+                            Generar Deuda/Saldo</button>
+                    </div>
+                    <div class="vertical-divider"></div>
+                    <div>
+                        <button class="btn btn-primary" id="resetDebtButton"
+                            style="background-color: #F1C232;margin-bottom: 8px" onclick="resetDebt()" disabled>
+                            <i class="anticon anticon-save"></i>
+                            Reiniciar Deuda</button>
+                    </div>
+                    <div class="vertical-divider"></div>
+                    <div>
+                        <button class="btn btn-primary" id="recalculateDebtButton"
+                            style="background-color: #F1C232;margin-bottom: 8px" onclick="recalculateDebt()" disabled>
+                            <i class="anticon anticon-save"></i>
+                            Recalcular Deuda</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Historial Pagos</h2>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Id Pago</th>
+                                            <th scope="col">Cliente</th>
+                                            <th scope="col">Monto Pago</th>
+                                            <th scope="col">Empresa Pago</th>
+                                            <th scope="col">Fecha</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="paymentHistorialTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+</script>

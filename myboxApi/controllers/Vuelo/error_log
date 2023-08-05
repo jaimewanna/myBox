@@ -1,0 +1,39 @@
+[26-May-2022 00:12:36 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/conexion.php on line 8
+[26-May-2022 00:12:50 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/conexion.php on line 8
+[15-Jun-2022 03:04:17 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[15-Jun-2022 03:04:17 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[15-Jun-2022 03:04:58 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[15-Jun-2022 03:04:58 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:01:49 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:01:49 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:02:05 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:02:05 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:55:55 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:55:55 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:56:12 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[22-Jul-2022 16:56:12 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/obtenerTrackingsVuelo.php on line 18
+[30-Jul-2023 14:09:41 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalVuelo.php:170
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalVuelo.php(170): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorVuelo.php(124): consultarPaquetesDetallePorVuelo(205)
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Vuelo/consultarPaquetesVueloDetalle.php(16): consultarPaquetesDetalleVuelo(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalVuelo.php on line 170

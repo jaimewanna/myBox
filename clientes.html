@@ -1,0 +1,70 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Clientes</h1>
+                <hr style="color: white;">
+                <div class="row" id="searchBarClients">
+                    <div class="col-4" id="searchBarClients1">
+                        <p style="color: white;">Elegir Filtro</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboSearchClientes">
+                                <option value="c.nombre">Nombre</option>
+                                <option value="c.paterno">Apellido</option>
+                                <option value="c.documentoIdentidad">Cedula</option>
+                                <option value="c.email">Email</option>
+                                <option value="c.telefono">Telefono</option>
+                                <option value="e.nombreEmpresa">Empresa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4" id="searchBarClients2">
+                        <p style="color: white;">Valor Busqueda</p>
+                        <input type="text" class="form-control" id="inputSearchClientes"
+                            placeholder="Escriba el identificador...">
+                    </div>
+                    <div class="col-4">
+                        <p style="color: white;">Agregar Cliente Nuevo</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;"
+                            onclick="openModalAgregarCliente('nuevo','0')"><i class="anticon anticon-plus"></i>
+                            Agregar</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Lista Clientes <i
+                                    class="anticon anticon-download" style="cursor: pointer;"
+                                    onclick="exportarXLSX('tablaClientes', 'Reporte Simple Clientes')"></i></h2>
+                            <div class="table-responsive">
+                                <table class="table" id="tablaClientes">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Precio Kilo</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Empresa</th>
+                                            <th scope="col">Cedula</th>
+                                            <th scope="col">Telefono</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="clientTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button class="btn btn-block" onclick="loadMoreClients()" id="loadMoreClientsButton"
+                                style="color: #F1C232;">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+</script>

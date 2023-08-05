@@ -1,0 +1,62 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Registro Logs Acciones</h1>
+                <hr style="color: white;">
+                <div class="row p-3">
+                    <div class="col-2">
+                        <p style="color: white;">Registro Pagos</p>
+                        <button class="btn btn-primary" onclick="getLogsPagos()" style="background-color: #F1C232;width: 100%;"><i
+                                class="anticon anticon-download"></i> Descargar</button>
+                    </div>
+                    <div class="table-responsive" style="display: none;">
+                        <table class="table" id="tablaAdminLogsPagos">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id Log</th>
+                                    <th scope="col">Accion</th>
+                                    <th scope="col">Detalle</th>
+                                    <th scope="col">Hora Accion</th>
+                                </tr>
+                            </thead>
+                            <tbody id="logsPagosTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 class="mt-3" style="color: #F1C232;font-weight: bold;text-align: center;">Historial Logs
+                                Acciones
+                                <i class="anticon anticon-download" style="cursor: pointer;"
+                                    onclick="exportarXLSX('tablaAdminLogs', 'Reporte Logs Clientes')"></i>
+                            </h2>
+                            <div class="table-responsive">
+                                <table class="table" id="tablaAdminLogs">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Id Log</th>
+                                            <th scope="col">Accion</th>
+                                            <th scope="col">Detalle</th>
+                                            <th scope="col">Hora Accion</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="logsTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+</script>

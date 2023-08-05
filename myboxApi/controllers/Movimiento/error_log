@@ -1,0 +1,345 @@
+[13-Oct-2022 02:49:39 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[13-Oct-2022 02:49:39 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:56:53 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:56:53 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:58:09 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:58:09 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:59:27 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:59:27 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:59:55 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 09:59:55 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 10:00:47 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[22-Oct-2022 10:00:47 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:11 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:11 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:35 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:35 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:46 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:38:46 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:39:22 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[24-Oct-2022 16:39:22 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[02-Nov-2022 22:27:53 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[02-Nov-2022 22:27:53 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[02-Nov-2022 23:56:33 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[02-Nov-2022 23:56:33 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:42:35 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:42:35 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:43:18 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:43:18 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:43:51 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:43:51 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:44:13 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:44:13 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:45:44 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:45:44 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:46:40 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:46:40 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:47:12 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:47:12 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:47:42 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[06-Nov-2022 20:47:42 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 12:18:29 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 12:18:29 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:49:32 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:49:32 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:50:23 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:50:23 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:53:02 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[10-Nov-2022 17:53:02 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:07:47 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:07:47 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:07:51 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:07:51 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:08:11 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:08:11 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:08:38 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:08:38 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:10:16 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:10:31 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Nov-2022 00:10:31 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[14-Dec-2022 17:31:47 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[14-Dec-2022 17:31:47 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[14-Dec-2022 17:33:30 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[14-Dec-2022 17:33:30 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:34:47 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:34:47 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:03 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:03 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:15 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:15 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:39 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:39 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:48 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Dec-2022 00:35:48 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[29-Dec-2022 05:47:37 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[29-Dec-2022 05:47:37 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[04-Jan-2023 06:32:51 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[04-Jan-2023 06:32:51 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[04-Jan-2023 06:35:53 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[04-Jan-2023 06:35:53 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:08:51 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:08:51 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:09:17 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:09:17 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:09:53 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:09:53 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:10:09 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[09-Jan-2023 13:10:09 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:41:37 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:41:37 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:26 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:26 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:37 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:37 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:47 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:42:47 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:43:03 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[23-Jan-2023 20:43:03 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:14 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:14 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:36 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:36 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:53 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jan-2023 02:08:53 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:13 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:13 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:37 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:37 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:50 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:43:50 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:46:48 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[15-Feb-2023 20:46:48 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:35:50 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:35:50 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:36:25 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:36:25 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:36:43 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[18-Feb-2023 09:36:43 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:39:01 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:39:02 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:39:51 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:39:51 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:41:37 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:41:37 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:41:59 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[01-Mar-2023 23:41:59 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[08-Mar-2023 11:02:03 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[08-Mar-2023 11:02:03 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:26:27 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:26:27 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:26:56 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:26:56 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:27:10 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:27:10 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:27:22 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[27-Jun-2023 08:27:22 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[19-Jul-2023 20:26:20 America/Chicago] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18
+[19-Jul-2023 20:26:20 America/Chicago] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Movimiento/obtenerFechasLugaresEntidad.php on line 18

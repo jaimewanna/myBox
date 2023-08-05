@@ -1,0 +1,36 @@
+[12-Oct-2022 00:44:10 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php:36
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php(36): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorBanner.php(6): obtenerUltimoBannerServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Banner/consultarBanner.php(9): consultarBanner()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php on line 36
+[12-Oct-2022 00:44:14 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php:36
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php(36): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorBanner.php(6): obtenerUltimoBannerServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Banner/consultarBanner.php(9): consultarBanner()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php on line 36
+[12-Oct-2022 01:06:49 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php:36
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php(36): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorBanner.php(6): obtenerUltimoBannerServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Banner/consultarBanner.php(9): consultarBanner()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php on line 36
+[12-Oct-2022 01:06:55 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php:36
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php(36): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorBanner.php(6): obtenerUltimoBannerServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Banner/consultarBanner.php(9): consultarBanner()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php on line 36
+[12-Oct-2022 01:09:24 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php:36
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php(36): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorBanner.php(6): obtenerUltimoBannerServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Banner/consultarBanner.php(9): consultarBanner()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalBanner.php on line 36
+[29-Mar-2023 08:38:01 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/conexion.php on line 10

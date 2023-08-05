@@ -1,0 +1,71 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Paquetes</h1>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-4">
+                        <p style="color: white;">Elegir Filtro</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboSearchPaquetes">
+                                <option value="a.aliasNombre">Cliente</option>
+                                <option value="ca.nombre">Caja</option>
+                                <option value="e.nombreEmpresa">Empresa</option>
+                                <option value="p.tracking">N° Tracking</option>
+                                <option value="p.total">Peso</option>
+                                <option value="p.peso">Total</option>
+                                <option value="p.lugar">Ubicacion</option>
+                                <option value="v.nombre">Vuelo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <p style="color: white;">Valor Busqueda</p>
+                        <input type="text" class="form-control" id="inputSearchPaquetes" placeholder="Escriba el identificador...">
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Realizar Busqueda</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;"><i
+                                class="anticon anticon-search"></i> Buscar</button>
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Crear Paquete Nuevo</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;" onclick="openModalPaquete()"><i class="anticon anticon-plus"></i> Crear</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Seguimiento <i class="anticon anticon-download" style="cursor: pointer;" onclick="exportarXLSX('packagesTable', 'Reporte Simple Paquetes')"></i></h2>
+                            <div class="table-responsive">
+                                <table class="table" id="packagesTable">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Vuelo</th>
+                                            <th scope="col">N° Tracking</th>
+                                            <th scope="col">Empresa</th>
+                                            <th scope="col">Cliente</th>
+                                            <th scope="col">Ubicación</th>
+                                            <th scope="col">Peso (Kg)</th>
+                                            <th scope="col">Total ($)</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="packagesTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button id="loadMorePackesButton" class="btn btn-block" style="color: #F1C232;" onclick="loadMorePackages()">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.select2').select2();
+</script>

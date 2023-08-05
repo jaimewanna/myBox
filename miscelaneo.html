@@ -1,0 +1,38 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Miscelaneos</h1>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-4" style="text-align: center">
+                        <p>Url Imagen</p>
+                        <input id="urlImagenBanner" type="text" class="form-control" placeholder="https://www...">
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Elegir Filtro</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboEmpresasBanner">
+                            </select>
+                        </div>
+                    </div>
+                    <div style="display: flex;align-items: center;justify-content: center;">
+                        <button onclick="saveBanner()" class="btn btn-primary"
+                            style="background-color: #F1C232;width: 100%;margin-top: 20px;"><i
+                                class="anticon anticon-search"></i>
+                            Guardar Url</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+    $('.datepicker-input').datepicker({
+        format: 'dd/mm/yyyy',
+        startDate: 'd'
+    });
+</script>

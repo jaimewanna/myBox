@@ -1,0 +1,66 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Vuelos</h1>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-4">
+                        <p style="color: white;">Elegir Filtro</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboSearchVuelos">
+                                <option value="v.nombre">Nombre Vuelo</option>
+                                <option value="v.tracking">Tracking</option>
+                                <option value="v.nPaquetes">Numero Paquetes</option>
+                                <option value="v.fechaSalida">Fecha Salida</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <p style="color: white;">Valor Busqueda</p>
+                        <input type="text" class="form-control" id="inputSearchVuelos" placeholder="Escriba el identificador...">
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Realizar Busqueda</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;"><i
+                                class="anticon anticon-search"></i> Buscar</button>
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Crear Vuelo Nuevo</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;" onclick="openModalAgregarVuelo()"><i class="anticon anticon-plus"></i> Crear</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Seguimiento <i class="anticon anticon-download" style="cursor: pointer;" onclick="exportarXLSX('tablaVuelos', 'Reporte Simple Vuelos')"></i></h2>
+                            <div class="table-responsive">
+                                <table class="table" id="tablaVuelos">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre Vuelo</th>
+                                            <th scope="col">Numero Paquetes</th>
+                                            <th scope="col">Fecha Salida</th>
+                                            <th scope="col">Peso Carga (Kg)</th>
+                                            <th scope="col">Valor Carga ($)</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button id="loadMoreFliesButton" class="btn btn-block" onclick="loadMoreFlies()" style="color: #F1C232;">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+</script>

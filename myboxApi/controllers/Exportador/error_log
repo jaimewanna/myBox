@@ -1,0 +1,49 @@
+[15-Jul-2022 05:34:32 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[15-Jul-2022 05:35:00 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[19-Jul-2022 05:26:57 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[22-Jul-2022 22:21:54 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[27-Jul-2022 09:44:25 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[28-Jun-2023 01:41:33 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15
+[19-Jul-2023 20:45:36 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php:15
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorExportador.php(6): obtenerDataMasivaServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Exportador/dataExportacionMasiva.php(9): exportacionMasiva()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalExportador.php on line 15

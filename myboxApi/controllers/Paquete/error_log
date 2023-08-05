@@ -1,0 +1,61 @@
+[11-Jun-2023 09:35:04 America/Lima] PHP Warning:  Undefined property: stdClass::$id in /home3/myboxpy0/developer.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php on line 34
+[11-Jun-2023 09:35:04 America/Lima] PHP Warning:  Undefined variable $respuesta in /home3/myboxpy0/developer.myboxpy.com/myboxApi/controllers/Paquete/obtenerPaqueteEspecifico.php on line 18
+[11-Jun-2023 09:35:04 America/Lima] PHP Fatal error:  Uncaught Error: Attempt to assign property "mensaje" on null in /home3/myboxpy0/developer.myboxpy.com/myboxApi/controllers/Paquete/obtenerPaqueteEspecifico.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/myboxpy0/developer.myboxpy.com/myboxApi/controllers/Paquete/obtenerPaqueteEspecifico.php on line 18
+[06-Jul-2023 01:12:03 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "idCliente" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php:61
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(108): recalcularDeudaCliente('65')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/actualizarPaquete.php(16): actualizarPaquete(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 61
+[06-Jul-2023 01:15:49 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$stmt" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalDeuda.php on line 84
+[06-Jul-2023 01:15:54 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$stmt" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalDeuda.php on line 84
+[06-Jul-2023 01:16:00 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$stmt" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalDeuda.php on line 84
+[18-Jul-2023 08:37:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php:380
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(125): busquedaPersonalizadaPaquete('SELECT DISTINCT...')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/buscadorPersonalizado.php(16): busquedaPersonalizadaPaqueteGestor(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php on line 380
+[21-Jul-2023 06:26:12 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php:380
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(125): busquedaPersonalizadaPaquete('SELECT DISTINCT...')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/buscadorPersonalizado.php(16): busquedaPersonalizadaPaqueteGestor(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php on line 380
+[21-Jul-2023 06:36:27 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php:380
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(125): busquedaPersonalizadaPaquete('SELECT DISTINCT...')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/buscadorPersonalizado.php(16): busquedaPersonalizadaPaqueteGestor(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php on line 380
+[21-Jul-2023 06:36:56 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php:380
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(125): busquedaPersonalizadaPaquete('SELECT DISTINCT...')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/buscadorPersonalizado.php(16): busquedaPersonalizadaPaqueteGestor(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php on line 380
+[21-Jul-2023 06:44:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php:380
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(125): busquedaPersonalizadaPaquete('SELECT DISTINCT...')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/buscadorPersonalizado.php(16): busquedaPersonalizadaPaqueteGestor(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalPaquete.php on line 380
+[30-Jul-2023 18:44:36 America/Chicago] PHP Parse error:  syntax error, unexpected token ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalDeuda.php on line 107
+[30-Jul-2023 18:44:52 America/Chicago] PHP Parse error:  syntax error, unexpected token ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalDeuda.php on line 107
+[30-Jul-2023 19:36:25 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "alias" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php:52
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPaquetes.php(108): recalcularDeudaCliente('95')
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Paquete/actualizarPaquete.php(16): actualizarPaquete(Object(stdClass))
+#2 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 52
+[30-Jul-2023 20:01:38 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:02:43 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:03:50 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:04:04 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:04:07 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:04:18 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:04:20 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73
+[30-Jul-2023 20:04:32 America/Chicago] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorPago.php on line 73

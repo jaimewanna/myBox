@@ -1,0 +1,266 @@
+[19-Jul-2022 07:51:42 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:51:53 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:52:10 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:52:18 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:53:33 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:53:41 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:54:40 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:56:24 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:56:30 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:56:43 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:56:57 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:56:58 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 07:57:20 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'Zpz3WV3V')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:11:57 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('Vendraimport@gm...', 'PXnCdBIz')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:12:04 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('Vendraimport@gm...', 'PXnCdBIz')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:12:07 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('Vendraimport@gm...', 'PXnCdBIz')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:12:23 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'PXnCdBIz')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:12:50 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'PXnCdBIz')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:14:24 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:14:31 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:17:58 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:18:10 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:18:16 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:19:11 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:19:17 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:21:24 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:22:04 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:22:11 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:43:42 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:43:54 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:43:59 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:44:04 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:44:10 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 08:44:12 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('joseantonioarev...', 'cMPjV8Ho')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 14:45:31 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 15:43:43 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', ''NxyzKNJ2'')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 15:43:46 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', ''NxyzKNJ2'')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46
+[19-Jul-2022 15:44:14 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php:46
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php(46): mysqli_stmt->bind_result(NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorUsuario.php(20): obtenerInicioSesionClienteServicio('vendraimport@gm...', 'NxyzKNJ2')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Usuario/iniciarSesionCliente.php(15): iniciarSesionCliente(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalUsuario.php on line 46

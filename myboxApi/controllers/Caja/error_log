@@ -1,0 +1,112 @@
+[17-May-2022 16:07:52 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:16
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(16): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(12): obtenerCajasDisplayServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/obtenerCajasDisplay.php(9): obtenerDisplayCajas()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 16
+[17-May-2022 16:08:26 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:16
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(16): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(12): obtenerCajasDisplayServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/obtenerCajasDisplay.php(9): obtenerDisplayCajas()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 16
+[17-May-2022 16:10:07 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:16
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(16): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(12): obtenerCajasDisplayServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/obtenerCajasDisplay.php(9): obtenerDisplayCajas()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 16
+[17-May-2022 16:13:17 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:16
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(16): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(12): obtenerCajasDisplayServicio()
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/obtenerCajasDisplay.php(9): obtenerDisplayCajas()
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 16
+[26-May-2022 00:04:31 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('A 81', '', 6, 'Buenos Aires', '2022-05-25', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[26-May-2022 00:04:45 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('A 81', '', 6, 'Buenos Aires', '2022-05-25', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[26-May-2022 00:04:48 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('A 81', '', 6, 'Buenos Aires', '2022-05-25', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[26-May-2022 00:05:55 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('A 81', '', 6, 'Buenos Aires', '2022-05-25', '2022-05-26')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[26-May-2022 00:09:29 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('A 81', '', 6, 'Buenos Aires', '2022-05-25', '2022-05-26')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[26-May-2022 00:12:20 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/conexion.php on line 8
+[27-May-2022 00:29:53 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('CAJA A82', '', 4, '', '', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[27-May-2022 00:33:07 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('CAJA A82', '', 4, '', '', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[27-May-2022 01:08:44 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:82
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(82): mysqli_stmt->bind_result(NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(20): guardarCajaServicio('CAJA A82', '', 4, '', '', '')
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/guardarCaja.php(16): guardarCajaNueva(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 82
+[29-Jun-2022 18:22:06 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:177
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(177): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(92): consultarPaquetesDetallePorCaja(15)
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/consultarPaquetesDetalleCaja.php(16): consultarPaquetesDetalleCaja(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 177
+[27-Jul-2022 15:01:15 America/Chicago] PHP Warning:  Undefined array key 3 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 83
+[27-Jul-2022 15:01:54 America/Chicago] PHP Warning:  Undefined array key 3 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 83
+[01-Aug-2022 17:26:39 America/Chicago] PHP Warning:  Undefined array key 1 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 83
+[01-Aug-2022 17:27:03 America/Chicago] PHP Warning:  Undefined array key 1 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 83
+[04-Aug-2022 16:37:18 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:213
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(213): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(97): consultarPaquetesDetallePorCaja(57)
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/consultarPaquetesDetalleCaja.php(16): consultarPaquetesDetalleCaja(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 213
+[26-Jun-2023 00:57:14 America/Chicago] PHP Warning:  Undefined array key 6 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 114
+[26-Jun-2023 00:58:11 America/Chicago] PHP Warning:  Undefined array key 6 in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php on line 114
+[19-Jul-2023 20:26:16 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php:256
+Stack trace:
+#0 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php(256): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/businessLogic/gestorCaja.php(128): consultarPaquetesDetallePorCaja(214)
+#2 /home3/myboxpy0/tracking.myboxpy.com/myboxApi/controllers/Caja/consultarPaquetesDetalleCaja.php(16): consultarPaquetesDetalleCaja(Object(stdClass))
+#3 {main}
+  thrown in /home3/myboxpy0/tracking.myboxpy.com/myboxApi/dataAccess/dalCaja.php on line 256

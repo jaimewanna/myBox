@@ -1,0 +1,59 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Importe Masivo</h1>
+                <hr style="color: white;">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);"
+                            style="display: flex;align-items: center;justify-content: center;">
+                            <p>Arrastre una plantilla al recuadro <i>para previsualizar la importación</i>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;align-items: center;justify-content: center;">
+                    <button onclick="sendImportData()" class="btn btn-primary"
+                        style="background-color: #F1C232;margin-top: 20px;">Procesar Importación</button>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Previsualización
+                                importación</h2>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Cliente</th>
+                                            <th scope="col">Tracking</th>
+                                            <th scope="col">Vuelo</th>
+                                            <th scope="col">Caja</th>
+                                            <th scope="col">Sub($)</th>
+                                            <th scope="col">Mov($)</th>
+                                            <th scope="col">otros($)</th>
+                                            <th scope="col">Total</th>
+                                            <th scope="col">Entrega Transporte</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="previewImportTable">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    #drop_zone {
+        border: 5px solid white;
+        width: 500px;
+        height: 100px;
+    }
+</style>

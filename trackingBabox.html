@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Babox</title>
+
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #000000;">
+
+    <div class="app">
+
+        <div class="container-fluid p-0 h-100">
+
+            <div class="float-add" onclick="hideBanner()" id="floatingDivAdd" style="max-width: 700px;cursor: pointer;">
+                <img id="floatingDivAddImg" class="img-fluid" src="#">
+            </div>
+
+            <div class="row" style="position: relative;height: 50px;">
+                <div class="nav-right" style="position: absolute;right: 1px;padding: 5px;">
+                    <button onclick="logOut()" style="color: #F494CE;background-color: #81496b;"
+                        class="btn btn-tone m-r-5">Cerrar
+                        Sesión</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-xl-2" style="margin-left: 18px;">
+                    <div
+                        style="text-align: left;margin-bottom: 60px;margin-left: 15px;margin-right: 15px;margin-top: -10px">
+                        <img class="img-fluid" src="https://tracking.myboxpy.com/assets/images/babox.png">
+                    </div>
+                    <div style="padding: 5%;background-color: #0F0D11;border-radius: 15px;margin-bottom: 10px;">
+                        <h2 style="color: #F494CE;text-align: left;margin-top: 8px;font-weight: bold;"
+                            id="nombreCliente">--</h2>
+                    </div>
+                    <div style="padding: 5%;background-color: #0F0D11;border-radius: 15px;text-align: left;">
+                        <div class="row">
+                            <div class="col-12 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;"> DNI </a><br>
+                                <a style="color: #F494CE;text-align: center;font-size: 18px;"
+                                    id="documentoCliente">--</a>
+                            </div>
+                            <div class="col-12 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;"> Email </a><br>
+                                <a style="color: #F494CE;text-align: center;font-size: 18px;" id="emailCliente">--</a>
+                            </div>
+                            <div class="col-6 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;"> Telefono </a><br>
+                                <a style="color: #F494CE;text-align: center;font-size: 18px;"
+                                    id="telefonoCliente">--</a>
+                            </div>
+                            <div class="col-6 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;"> Empresa de Entrega
+                                </a><br>
+                                <a style="color: #F494CE;text-align: center;font-size: 18px;" id="empresaEntrega">--</a>
+                            </div>
+                            <div class="col-6 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;"> Dirección de
+                                    entrega</a><br>
+                                <a style="color: #F494CE;text-align: center;font-size: 18px;"
+                                    id="direccionCliente">--</a>
+                            </div>
+                            <div class="col-12 col-xl-12" style="text-overflow: ellipsis;overflow: hidden;display: none;">
+                                <a style="color: #42dfd6;text-align: center;font-size: 15px;" id="tituloMontoPagar">
+                                    Monto por pagar </a><br>
+                                <a style="color: #F494CE;font-size: 15px;">Pago en Paypal:    </a><a
+                                    style="color: #F494CE;text-align: center;font-size: 18px;"
+                                    id="deudaPaypalDashboardCliente">--</a><a class=" ml-2 "
+                                    onclick="openPayPalModal()"><i class="fab fa-paypal"
+                                        style="color: #F494CE;font-size: 18px;"></i></a><br>
+                                <a style="color: #F494CE;font-size: 15px;">Pago en Argenper: </a><a
+                                    style="color: #F494CE;text-align: center;font-size: 18px;"
+                                    id="deudaDashboardCliente">--</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl">
+                    <div class="d-flex justify-content-center mx"
+                        style="background-color: #0F0D11;border-radius: 15px;margin-right: 15px;font-size: 30px;color: #F494CE;">
+                        <a class="mx-3" href="#" target="_blank" class="facebook" style="color: #F494CE;"><i
+                                class="fab fa-facebook"></i></a>
+                        <a class="mx-3" href="https://www.instagram.com/babox.courier/" target="_blank" class="twitter"
+                            style="color: #F494CE;"><i class="fab fa-instagram"></i></a>
+                        <a class="mx-3" href="https://wa.link/bgmqhv" target="_blank" class="google"
+                            style="color: #F494CE;"><i class="fab fa-whatsapp"></i></a>
+                        <a class="mx-3" href="mailto: clientes@baboxlatam.com" target="_blank" class="linkedin"
+                            style="color: #F494CE;"><i class="anticon anticon-mail"></i></a>
+                        <div class="vl mx-3" style="border-left: 3px solid #F494CE;height:50px"></div>
+                        <a class="mr-2" target="_blank" href="https://www.ups.com/track?loc=en_US&requester=ST/3">
+                            <img src="https://tracking.myboxpy.com/assets/images/ups.png" height="30px">
+                        </a>
+                        <a class="mr-2" target="_blank" href="https://www.dhl.com/py-es/home/rastreo.html">
+                            <img src="https://tracking.myboxpy.com/assets/images/dhl.png" width="50px">
+                        </a>
+                        <a class="mr-2" target="_blank" href="https://www.fedex.com/en-us/tracking.html">
+                            <img src="https://tracking.myboxpy.com/assets/images/fedex.png" width="50px">
+                        </a>
+                        <a class="mr-2" target="_blank"
+                            href="https://www.tnt.com/express/es_es/site/herramientas-envio/seguimiento.html">
+                            <img src="https://tracking.myboxpy.com/assets/images/tnt.png" width="50px">
+                        </a>
+                        <a class="mr-2" target="_blank" href="https://es.usps.com/">
+                            <img src="https://tracking.myboxpy.com/assets/images/usps.png" width="70px">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl">
+                            <div style="padding: 5%;background-color: #0F0D11;border-radius: 15px;margin: 15px;">
+                                <h2 style="color: #42dfd6;font-weight: bold;text-align: center;">Ultimos Pagos <i
+                                        class="anticon anticon-download" style="cursor: pointer;"
+                                        onclick="exportarXLSX('ultimosPagosTable', 'Ultimos pagos')"></i></h2>
+                                <div class="table-responsive">
+                                    <table class="table table-sm" id="ultimosPagosTable">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Entidad</th>
+                                                <th scope="col">Fecha</th>
+                                                <th scope="col">Monto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="pagosDashboardCliente">
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <button class="btn btn-block" style="color: #F494CE;" id="pagosDashboardButton">Ver
+                                    Más</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl">
+                            <div style="padding: 5%;background-color: #0F0D11;border-radius: 15px;margin: 15px;">
+                                <h2 style="color: #42dfd6;font-weight: bold;text-align: center;">Kilos Mensuales</h2>
+                                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <div style="padding: 3.6%;background-color: #0F0D11;border-radius: 15px;margin: 15px;">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="mr-2" style="color: #42dfd6;font-weight: bold;text-align: center;">Seguimiento de
+                                cajas <i class="anticon anticon-download" style="cursor: pointer;"
+                                    onclick="exportarXLSX('seguimientoCajasTable', 'Seguimiento de cajas')"></i></h2>
+                            <h2>
+                                <a target="_blank" href="http://www.cruceroexpress.com.ar/wp/?page_id=2541">
+                                    <img src="https://tracking.myboxpy.com/assets/images/cruceroExpress.png"
+                                        width="120px">
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-sm" id="seguimientoCajasTable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nombre Caja</th>
+                                        <th scope="col">N° Tracking</th>
+                                        <th scope="col">Destino</th>
+                                        <th scope="col">N° Paquetes</th>
+                                        <th scope="col">Peso (Kg)</th>
+                                        <th scope="col">Entrega Transporte</th>
+                                        <th scope="col">Inicio Viaje</th>
+                                        <th scope="col">Llegada</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="cajasDashboardTable">
+                                </tbody>
+                            </table>
+                        </div>
+                        <button class="btn btn-block" style="color: #F494CE;" id="cajasDashboardButton">Ver Más</button>
+                    </div>
+                    <!--<div
+                        style="padding: 5%;background-color: #0F0D11;border-radius: 15px;margin: 15px;padding-bottom: 0px;">
+                        <h2 style="color: #42dfd6;font-weight: bold;text-align: center">Ubicación de
+                            paquetes</h2>
+                        <div class="table-responsive">
+                            <table class="table table-sm" id="paquetesLocationTable">
+                            </table>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div style="padding: 5%;background-color: #0F0D11;border-radius: 15px;margin: 15px;">
+                        <h2 class="mr-2" style="color: #42dfd6;font-weight: bold;text-align: center;">Saldo de Deuda </h2>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Detalle</th>
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Peso</th>
+                                        <th class="columnaNumerica" scope="col">Sub Total</th>
+                                        <th class="columnaNumerica" scope="col">Movilidad</th>
+                                        <th class="columnaNumerica" scope="col">Otros</th>
+                                        <th class="columnaNumerica"scope="col">Total ($)</th>
+                                        <!--<th class="columnaNumerica" scope="col">Deuda</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody id="tablaBalanceDeuda">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div style="display: flex;align-items: center;justify-content: center;">
+                <div class="col-8">
+                    <div style="padding: 1%;background-color: #0F0D11;border-radius: 15px;margin: 5px;">
+                        <h2 style="color: #42dfd6;font-weight: bold;text-align: left;">Balance de pagos y deudas</h2>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Detalle</th>
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Peso</th>
+                                        <th scope="col">Sub Total</th>
+                                        <th scope="col">Movilidad</th>
+                                        <th scope="col">Otros</th>
+                                        <th scope="col">Total ($)</th>
+                                        <th scope="col">Balance</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tablaBalanceDeuda">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <hr style="color: #42dfd6;margin: 1.25%;height: 3px;border-top: 3px solid #edf2f9;">
+            <div class="d-flex justify-content-start">
+                <h2 class="mr-2" style="color: #F494CE;font-weight: bold;margin-left: 1.25%">Código Vuelo - Fecha de
+                    llegada a Asunción
+                </h2>
+
+            </div>
+
+            <div id="fliesTablesDiv">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modalPagosPaqueteDashboard" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPagosPaqueteDashboardTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12 col-xl">
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Entidad</th>
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Monto</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="modalPagosPaqueteDashboardBody">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDetallePaquetesCaja" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4" id="tituloMatrizModal">Detalle Caja</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalDetallePaquetesCajaBody"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPagoPayPal" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Realizar pago PayPal</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 m-b-15">
+                            <p>Monto Pago</p>
+                            <input type="number" id="inputMontoPayPal" class="form-control" placeholder="Monto">
+                            <div id="paypal-button-container" style="margin-top: 25px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AclmoqN3mJyfabKwRgJo6fGH1SfQgASr9BxnKqe3iveZwImHwuSltE_pfaPvtEJTC4l_dfa6RxEjNdOu&disable-funding=card"></script>
+    <script src="assets/js/vendors.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="assets/js/functionsClientDashboard.js"></script>
+    <script src="assets/js/building.js"></script>
+    <script src="assets/js/const.js"></script>
+
+    <script type="text/javascript" src="//unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+</body>
+
+</html>

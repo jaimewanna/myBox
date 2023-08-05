@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gestor de Proyectos</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- page css -->
+
+    <!-- Core css -->
+    <link href="assets/vendors/select2/select2.css" rel="stylesheet">
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="app is-primary">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header">
+                <div class="logo logo-dark">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="Logo">
+                        <img class="logo-fold" src="assets/images/logo/logo-fold.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="nav-wrap" style="background-color: #141414;">
+                    <ul class="nav-left" onclick="isExpanded()">
+                        <li class="desktop-toggle">
+                            <a href="javascript:void(0);">
+                                <i class="anticon"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-toggle">
+                            <a href="javascript:void(0);">
+                                <i class="anticon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li onclick="logOut()">
+                            <a style="cursor: pointer;">Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header END -->
+
+            <!-- Side Nav START -->
+            <div class="side-nav" style="background-color: #141414;">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item active">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="fas fa-chalkboard"></i>
+                                </span>
+                                <span class="title">Inicio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item franquicia" onclick="loadVuelos()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Vuelos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item franquicia" onclick="loadPackages()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Paquetes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item franquicia" onclick="loadBundles()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Cajas</span>
+                            </a>
+                        </li>
+                        <li class="nav-item franquicia" onclick="loadClients()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                <span class="title">Clientes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" onclick="exportacionMasiva()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Exportacion Masiva</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" onclick="importacionMasiva()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Importación Masiva</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" onclick="loadPagos()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Pagos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" onclick="loadHistorico()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Historico</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" onclick="loadReportes()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Reportes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown franquicia" onclick="loadLog()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Registro Logs</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" onclick="loadAdminLog()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Registro Logs Acciones</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown franquicia" onclick="loadMisc()">
+                            <a style="color: #F1C232;">
+                                <span class="icon-holder">
+                                    <i class="far fa-folder"></i>
+                                </span>
+                                <span class="title">Miscelaneos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container" style="background: #141414;">
+
+                <!-- Content Wrapper START -->
+                <div class="main-content" id="contenido">
+                    <!-- Content goes Here -->
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="footer">
+                    <div class="footer-content">
+                        <p class="m-b-0" style="color: white;">Copyright © 2022 mybox. Todos los derechos reservados.
+                            Powered by Sleepy Fox</p>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+            <!-- Quick View START -->
+            <div class="modal modal-right fade quick-view" id="quick-view">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header justify-content-between align-items-center">
+                            <h5 class="modal-title">Quick View</h5>
+                        </div>
+                        <div class="modal-body scrollable">
+                            <!-- Content goes Here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Quick View END -->
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAgregarPaquete" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Crear Paquete</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>MYB</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboMyb">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Nombre</p>
+                            <input id="nombreInputPaqueteModal" type="text" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Email</p>
+                            <input type="text" id="emailInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Empresa</p>
+                            <input type="text" id="empresaInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Tracking Paquete</p>
+                            <input type="text" id="trackingInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" value="Numero Tracking">
+                        </div>
+                        <div class="col-4">
+                            <div class="row" style="padding-left: 15px;">
+                                <p>Destino Paquete</p>
+                                <button style="display: none;margin-left: 7px;margin-bottom: 7px;" id="editLugarButtom"
+                                    type="button" class="btn btn-primary btn-sm" onclick="openAliasModal()">Editar
+                                    Lugar</button>
+                            </div>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboDestinoPaquete">
+                                    <option value="2">Asuncion</option>
+                                    <option value="10">Interior Paraguay</option>
+                                    <option value="7">Buenos Aires</option>
+                                    <option value="9">Interior Argentina</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Descripccion</p>
+                            <input type="text" id="descripcionInputPaqueteModal" class="form-control"
+                                placeholder="Descripcion del paquete">
+                        </div>
+                        <div class="col-4">
+                            <p>Vuelo</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboFlies">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Caja</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboBoxes">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Peso (Kg)</p>
+                            <input type="number" id="inputPeso" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Precio Kilo ($)</p>
+                            <input type="text" id="inputPrecioKilo" class="form-control" placeholder="0.00">
+                        </div>
+                        <div class="col-4">
+                            <p>Subtotal</p>
+                            <input type="number" id="inputSubtotal" class="form-control" placeholder="0.00" disabled=""
+                                value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Movilidad</p>
+                            <input type="number" id="inputMovilidad" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Otros Gastos</p>
+                            <input type="number" id="inputOtrosGastos" class="form-control" placeholder="0.00"
+                                value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Total</p>
+                            <input type="number" id="inputTotal" class="form-control" placeholder="0.00" disabled=""
+                                value="0">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Margen</p>
+                            <input type="number" id="inputMargen" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Utilidad</p>
+                            <input type="number" id="inputUtilidad" class="form-control" placeholder="0.00" value="0"
+                                disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Tipo Cambio</p>
+                            <input type="text" id="inputTipoCambio" class="form-control" placeholder="0.00" value="0">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button id="guardarPaqueteBoton" type="button" class="btn btn-primary"
+                        onclick="savePackage()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAgregarVuelo" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Crear Vuelo</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Nombre Vuelo</p>
+                            <input type="text" id="nombreVuelo" class="form-control" placeholder="Nombre Vuelo">
+                        </div>
+                        <div class="col-4" style="display: none;">
+                            <p>Tracking Vuelo</p>
+                            <input type="text" id="trackingVuelo" class="form-control" placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4">
+                            <p>Fecha Llegada</p>
+                            <input type="date" id="fechaSalida" class="form-control" placeholder="Fecha Salida">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes</p>
+                            <textarea type="text" id="listTrackingsVuelo" class="form-control"
+                                placeholder="Tracking Paquetes" rows="20"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="guardarVueloBoton"
+                        onclick="saveFly()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAgregarCaja" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Crear Caja</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Nombre Caja</p>
+                            <input type="text" id="nombreCaja" class="form-control" placeholder="Nombre Caja">
+                        </div>
+                        <div class="col-4">
+                            <p>Destino Caja</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="destinoCaja">
+                                    <option value="Asuncion">Asuncion</option>
+                                    <option value="Interior Paraguay">Interior Paraguay</option>
+                                    <option value="Buenos Aires">Buenos Aires</option>
+                                    <option value="Interior Argentina">Interior Argentina</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Tracking Caja</p>
+                            <input type="text" id="trackingCaja" class="form-control" placeholder="Tracking Caja">
+                        </div>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <div class="col-4">
+                            <p>Fecha Entrega</p>
+                            <input type="date" id="fechaEntregaCaja" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                        <div class="col-4">
+                            <p>Fecha Viaje</p>
+                            <input type="date" id="fechaViajeCaja" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes</p>
+                            <textarea type="text" id="listTrackingsCaja" class="form-control"
+                                placeholder="Tracking Paquetes" rows="10"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="guardarVueloBoton"
+                        onclick="saveBox()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalListaPaquetes" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Lista Paquetes Detallados</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="listaPaquetesDetalladosBody">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEditarCaja" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Editar Caja</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Nombre Caja</p>
+                            <input type="text" id="nombreEditarCaja" class="form-control" placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4">
+                            <p>Tracking Caja</p>
+                            <input type="text" id="trackingEditarCaja" class="form-control"
+                                placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4" style="display: none">
+                            <p>Numero Paquetes</p>
+                            <input type="number" id="numeroPaquetesEditarCaja" class="form-control"
+                                placeholder="Tracking Vuelo">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Fecha Entrega</p>
+                            <input type="date" id="fechaEntregaEditarCaja" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                        <div class="col-4">
+                            <p>Fecha Viaje</p>
+                            <input type="date" id="fechaViajeEditarCaja" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes</p>
+                            <textarea type="text" id="listTrackingsEditarCaja" class="form-control" disabled=""
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes Adicionales</p>
+                            <textarea type="text" id="listTrackingsAdicionalesEditarCaja" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="guardarCajaBoton"
+                        onclick="updateBox()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEditarVuelo" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Editar Vuelo</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Nombre Vuelo</p>
+                            <input type="text" id="nombreEditarVuelo" class="form-control" placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4" style="display: none;">
+                            <p>Tracking Vuelo</p>
+                            <input type="text" id="trackingEditarVuelo" class="form-control"
+                                placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4" style="display: none">
+                            <p>Numero Paquetes</p>
+                            <input type="number" id="numeroPaquetesEditarVuelo" class="form-control"
+                                placeholder="Tracking Vuelo">
+                        </div>
+                        <div class="col-4">
+                            <p>Fecha Salida</p>
+                            <input type="date" id="fechaSalidaEditarVuelo" class="form-control"
+                                placeholder="Fecha Salida">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes</p>
+                            <textarea type="text" id="listTrackingsEditarVuelo" class="form-control" disabled=""
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Tracking Paquetes Adicionales</p>
+                            <textarea type="text" id="listTrackingsAdicionalesEditarVuelo" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="guardarVueloBoton"
+                        onclick="updateFly()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAgregarcliente" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Crear Cliente</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Nombre</p>
+                            <input type="text" id="nombreCliente" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-4">
+                            <p>Apellido Paterno</p>
+                            <input type="text" id="paternoCliente" class="form-control" placeholder="Apellido Paterno">
+                        </div>
+                        <div class="col-4">
+                            <p>Apellido Materno</p>
+                            <input type="text" id="maternoCliente" class="form-control" placeholder="Apellido Materno">
+                        </div>
+                        <div class="col-4">
+                            <p>Documento Identidad</p>
+                            <input type="text" id="documentoCliente" class="form-control"
+                                placeholder="Documento Identidad">
+                        </div>
+                        <div class="col-2" id="columnSwitchPanel" style="margin-top: 3.5%">
+                            <div class="form-group d-flex align-items-center" style="margin-bottom: 0px;">
+                                <div class="switch m-r-10">
+                                    <input id="switchPanel" type="checkbox">
+                                    <label for="switchPanel"></label>
+                                </div>
+                                <label style="color: white;">¿Activar panel?</label>
+                            </div>
+                        </div>
+                        <div class="col-3" id="columnButtomPanel" style="margin-top: 3.5%">
+                            <button id="checkPanelButton" type="button" class="btn btn-primary"
+                                onclick="checkPanel()">Ver Panel</button>
+                        </div>
+                        <div class="col-4" id="columnMYB" style="display: none;">
+                            <p>MYB</p>
+                            <input type="text" id="MYBCliente" class="form-control" placeholder="MYB">
+                        </div>
+                        <div class="col-4" style="display: none;">
+                            <p>id</p>
+                            <input type="text" id="idClienteSecretInput" class="form-control" placeholder="MYB">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row" style="padding-left: 15px;">
+                                <p>Alias Persona</p>
+                                <button style="display: none;margin-left: 7px;margin-bottom: 7px;" id="editAliasButtom"
+                                    type="button" class="btn btn-primary btn-sm" onclick="openAliasModal()">Editar
+                                    Alias</button>
+                                <button style="display: none;margin-left: 7px;margin-bottom: 7px;" id="addAliasButtom"
+                                    type="button" class="btn btn-warning btn-sm" onclick="addNewAlias()">Añadir
+                                    Alias</button>
+                            </div>
+                            <textarea type="text" id="listAliasPersonaNueva" class="form-control"
+                                placeholder="Tracking Paquetes"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Telefono</p>
+                            <input type="text" id="telefonoCliente" class="form-control" placeholder="Telefono">
+                        </div>
+                        <div class="col-4">
+                            <p>Email</p>
+                            <input type="text" id="emailCliente" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-4">
+                            <p>Empresa</p>
+                            <div class="m-b-15">
+                                <select id="comboEmpresaCliente" class="select2" name="state">
+                                    <option value="1">mybox</option>
+                                    <option value="2">yourbox</option>
+                                    <option value="3">babox</option>
+                                    <option value="4">mybox arg</option>
+                                    <option value="5">mybox bra</option>
+                                    <option value="6">productos</option>
+                                    <option value="7">4women.box</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Dirección Entrega</p>
+                            <input type="text" id="direccionEntregaCliente" class="form-control"
+                                placeholder="Direccion Entrega">
+                        </div>
+                        <div class="col-4">
+                            <p>Empresa Entrega</p>
+                            <input type="text" id="empresaEntregaCliente" class="form-control"
+                                placeholder="Empresa Entrega">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Precio Kilo</p>
+                            <input type="number" id="precioKiloCliente" class="form-control" placeholder="Precio Kilo">
+                        </div>
+                        <div class="col-8">
+                            <p>Direccion</p>
+                            <input type="text" id="direccionCliente" class="form-control" placeholder="Direccion">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button id="clientModalButtom" type="button" class="btn btn-primary"
+                        onclick="saveClient()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMatriz" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4" id="tituloMatrizModal">Matriz Cajas</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="wrapper">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="headcol th-matriz">Caja</th>
+                                        <th scope="col" class="th-matriz">Miami</th>
+                                        <th scope="col" class="th-matriz">Asuncion</th>
+                                        <th scope="col" class="th-matriz">Camino interior Paraguay</th>
+                                        <th scope="col" class="th-matriz">Interior Paraguay</th>
+                                        <th scope="col" class="th-matriz">Frontera</th>
+                                        <th scope="col" class="th-matriz">Argentina</th>
+                                        <th scope="col" class="th-matriz">Camino a Buenos Aires</th>
+                                        <th scope="col" class="th-matriz">Buenos Aires</th>
+                                        <th scope="col" class="th-matriz">Camino al interior</th>
+                                        <th scope="col" class="th-matriz">Interior Argentina</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="matrizModalBody">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button id="clientModalButtom" type="button" class="btn btn-primary"
+                        onclick="saveMatrix()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEditarAlias" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Editar Alias</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="editAliasBody">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPagoHistorico" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Generar deuda o saldo a favor</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Accion a generar</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboPagoHistorico">
+                                    <option value="1">Deuda</option>
+                                    <option value="2">Saldo a favor</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p>Monto a generar</p>
+                            <input type="number" id="inputMontoPagoHistorico" class="form-control" placeholder="Monto">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="guardarPagoHistorico()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalKilosHistoricos" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Generar kilos historicos</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Cliente</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboclientesKilosHistoricos">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 m-b-15">
+                            <p>Peso</p>
+                            <input type="number" id="inputPesoKilosHistoricos" class="form-control" placeholder="Monto">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Fecha</p>
+                            <input type="date" id="inputFechaKilosHistorico" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="guardarKilosHistorico()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalPagosHistoricoConFecha" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Generar Pagos Historicos</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Cliente</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboclientesPagosHistoricosconFecha">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Empresa Pago</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboEmpresasPagosHistoricosconFecha">
+                                    <option value="2">Argenper</option>
+                                    <option value="7">Banco Baza</option>
+                                    <option value="4">Billetera Personal</option>
+                                    <option value="6">Google Pay</option>
+                                    <option value="5">Otro</option>
+                                    <option value="1">Pay Pal</option>
+                                    <option value="3">Western Union</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 m-b-15">
+                            <p>Monto</p>
+                            <input type="number" id="inputMontoPagosHistoricosconFecha" class="form-control"
+                                placeholder="Monto">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Fecha</p>
+                            <input type="date" id="inputFechaPagosHistoricosconFecha" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary"
+                        onclick="guardarPagoHistoricoConFecha()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEditarLugar" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Editar Alias</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="editLugarBody">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="modal fade" id="openModalRecordPackage" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Crear Paquete Historico</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>MYB</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboMyb">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <p>Nombre</p>
+                            <input id="nombreInputPaqueteModal" type="text" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Email</p>
+                            <input type="text" id="emailInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Empresa</p>
+                            <input type="text" id="empresaInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Tracking Paquete</p>
+                            <input type="text" id="trackingInputPaqueteModal" class="form-control"
+                                placeholder="Disabled Input" value="Numero Tracking">
+                        </div>
+                        <div class="col-4">
+                            <div class="row" style="padding-left: 15px;">
+                                <p>Destino Paquete</p>
+                                <button style="display: none;margin-left: 7px;margin-bottom: 7px;" id="editLugarButtom"
+                                    type="button" class="btn btn-primary btn-sm" onclick="openAliasModal()">Editar
+                                    Lugar</button>
+                            </div>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboDestinoPaquete">
+                                    <option value="2">Asuncion</option>
+                                    <option value="10">Interior Paraguay</option>
+                                    <option value="7">Buenos Aires</option>
+                                    <option value="9">Interior Argentina</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <p>Descripccion</p>
+                            <input type="text" id="descripcionInputPaqueteModal" class="form-control"
+                                placeholder="Descripcion del paquete">
+                        </div>
+                        <div class="col-4">
+                            <p>Vuelo</p>
+                            <div class="m-b-15">
+                                <select class="select2" name="state" id="comboFlies">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Peso (Kg)</p>
+                            <input type="number" id="inputPeso" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Precio Kilo ($)</p>
+                            <input type="text" id="inputPrecioKilo" class="form-control" placeholder="0.00" disabled=""
+                                value="3.25">
+                        </div>
+                        <div class="col-4">
+                            <p>Subtotal</p>
+                            <input type="number" id="inputSubtotal" class="form-control" placeholder="0.00" disabled=""
+                                value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Movilidad</p>
+                            <input type="number" id="inputMovilidad" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Otros Gastos</p>
+                            <input type="number" id="inputOtrosGastos" class="form-control" placeholder="0.00"
+                                value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Total</p>
+                            <input type="number" id="inputTotal" class="form-control" placeholder="0.00" disabled=""
+                                value="0">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Margen</p>
+                            <input type="number" id="inputMargen" class="form-control" placeholder="0.00" value="0">
+                        </div>
+                        <div class="col-4">
+                            <p>Utilidad</p>
+                            <input type="number" id="inputUtilidad" class="form-control" placeholder="0.00" value="0"
+                                disabled="">
+                        </div>
+                        <div class="col-4">
+                            <p>Tipo Cambio</p>
+                            <input type="text" id="inputTipoCambio" class="form-control" placeholder="0.00" value="0">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-r-10" data-dismiss="modal">Cerrar</button>
+                    <button id="guardarPaqueteBoton" type="button" class="btn btn-primary"
+                        onclick="savePackage()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="assets/js/vendors.min.js"></script>
+    <script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- page js -->
+
+    <script src="assets/js/miscelaneos.js"></script>
+    <script src="assets/js/building.js"></script>
+    <script src="assets/js/functionsClient.js"></script>
+    <script src="assets/js/functionsPackage.js"></script>
+    <script src="assets/js/functionsBundles.js"></script>
+    <script src="assets/js/functionsReportes.js"></script>
+    <script src="assets/js/functionsVuelos.js"></script>
+    <script src="assets/js/functionPayment.js"></script>
+    <script src="assets/js/functionAlias.js"></script>
+    <script src="assets/js/functionLogAdmin.js"></script>
+    <script src="assets/js/functionLogsAction.js"></script>
+    <script src="assets/js/functionMassive.js"></script>
+    <script src="assets/js/functionExportacion.js"></script>
+    <script src="assets/js/functionRecord.js"></script>
+    <script src="assets/js/functionsNotification.js"></script>
+    <script src="assets/js/functionBanner.js"></script>
+    <script src="assets/js/functionMassiveImport.js"></script>
+    <script src="assets/vendors/select2/select2.min.js"></script>
+    <script type="text/javascript" src="//unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+    <script type="text/javascript" src="//unpkg.com/blob.js@1.0.1/Blob.js"></script>
+    <script type="text/javascript" src="//unpkg.com/file-saver@1.3.3/FileSaver.js"></script>
+    <!-- Core JS -->
+    <script src="assets/js/app.min.js"></script>
+    <script>
+        $('.select2').select2();
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<div class="container-fluid card" style="padding-left: 0%;padding-right: 0%;background-color:#141414 ;">
+    <div class="card-body">
+        <div id="packagesBody" class="row row-cols-1 row-cols-md-3 g-4">
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <h1 style="color: white;">Cajas</h1>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-4">
+                        <p style="color: white;">Elegir Filtro</p>
+                        <div class="m-b-15">
+                            <select class="select2" name="state" id="comboSearchCajas">
+                                <option value="c.nombre">Nombre</option>
+                                <option value="c.tracking">Tracking</option>
+                                <option value="c.nPaquetes">Número Paquetes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <p style="color: white;">Valor Busqueda</p>
+                        <input type="text" class="form-control" id="inputSearchCajas" placeholder="Escriba el identificador...">
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Realizar Busqueda</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;"><i
+                                class="anticon anticon-search"></i> Buscar</button>
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;">Crear Caja Nueva</p>
+                        <button class="btn btn-primary" style="background-color: #F1C232;width: 100%;" onclick="openModalCaja()"><i class="anticon anticon-plus"></i>Crear</button>
+                    </div>
+                </div>
+                <hr style="color: white;">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-color: #1f1b24;border-radius: 15px;margin: 15px;">
+                            <h2 style="color: #F1C232;font-weight: bold;text-align: center;">Seguimiento</h2>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Tracking</th>
+                                            <th scope="col">Número paquetes</th>
+                                            <th scope="col">Fecha Registro</th>
+                                            <th scope="col">Peso</th>
+                                            <th scope="col">Valor</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="boxesTableBody">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button class="btn btn-block" id="loadMoreBoxesButton" onclick="loadMoreBoxes()" style="color: #F1C232;">Ver
+                                Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.select2').select2();
+</script>
